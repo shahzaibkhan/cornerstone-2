@@ -1,0 +1,285 @@
+/*
+Theme Name: cornerstonechildtheme
+Description: Child theme for the Cornerstone starter theme
+Author: Stephen Mullen
+Author URI: http: //www.thewirelessguy.co.uk
+Template: cornerstone
+Version: 1.0
+*/
+
+body, html {
+    height: 100%;
+    background: #ffffff;
+}
+body {
+font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,.middlebox p {
+font-family: 'Oswald', sans-serif;
+}
+.logo {
+position: absolute;
+}
+header {
+    background: white;
+}
+.top-bar, .top-bar ul {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 23px;
+    margin: 0px;
+    font-weight: 500;
+    padding: 0px 0px;
+}
+.menu>li>a {
+    border-top: 3px solid white;
+    display: block;
+    padding: 0px;
+    line-height: 1;
+    padding: 22px 35px;
+    color: #fa5801;
+    font-family: "Oswald",Arial!important;
+    font-weight: 300;
+    font-size: 21px;
+}
+.menu .active>a {
+    color: black;
+    background: transparent;
+    border-top: 3px solid black;
+}
+.owl-carousel .owl-item img {
+    height: 300px;
+}
+.sliderwrap {
+background: url(../../uploads/2017/02/bg.png);
+    width: 100%;
+    background-size: cover;
+}
+.middlebox {
+    padding: 190px 0px;
+    text-align: center;
+}
+.middlebox h2 {
+    font-size: 88px;
+    font-weight: bold;
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+    max-width: 100%;
+    text-shadow: 4px 2px 14px #6f6161;
+    line-height: 94px;
+}
+.middlebox p {
+    font-size: 30px;
+    color: white;
+    margin: 0 auto;
+    max-width: 100%;
+    text-shadow: 4px 2px 14px #6f6161;
+    line-height: 55px;
+    margin-bottom: 19px;
+    font-weight: normal;
+}
+a.button.btn {
+    background: #fa5801!important;
+    color: white;
+    font-size: 22px;
+    padding: 16px 26px;
+}
+a.button.btn:hover {
+    background: #db550e!important;
+}
+
+.button .fa-clock-o {
+    font-size: 27px;
+    padding-right: 8px;
+    position: relative;
+    top: 2px;
+}
+
+.main {
+    background: #f6f6f6;
+}
+.item {
+    background: white;
+    padding: 0px;
+    width: 450px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.item p {
+    font-size: 18px;
+    margin: 0px 44px;
+    line-height: 26px;
+    border-top: 1px solid #f1e4e4!important;
+    padding: 20px 0px;
+}
+.item h2 {
+   margin: 22px 46px;
+margin-right: 100px;
+line-height: 37px;
+font-size: 38px;
+width: 300px;
+font-weight: 300;
+}
+.item a {
+    color: #fa7026;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 44px;
+    margin-bottom: 24px;
+    display: block;
+}
+.owl-next {
+    background: url(../../uploads/2017/02/right.png) no-repeat;
+    width: 63px;
+    display: block;
+    height: 58px;
+    text-indent: -99999px;
+    position: absolute;
+    z-index: 10000;
+    margin-top: -538px;
+    margin-right: -77px;
+    right: 0px;
+}
+.owl-prev {
+    background: url(../../uploads/2017/02/left.png) no-repeat;
+    width: 63px;
+    display: block;
+    height: 58px;
+    text-indent: -99999px;
+    position: absolute;
+    z-index: 10000;
+    margin-top: -538px;
+    margin-left: -124px;
+}
+.slide {
+    background: url(../../uploads/2017/02/background.png);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+.slidewrap{ 
+
+}
+.slidewrap {
+    padding: 150px 100px;
+}
+.slide h2 {
+    font-weight: bold;
+    font-size: 60px;
+    width: 800px;
+    margin: 0 auto;
+    max-width: 100%;
+    line-height: 62px;
+    color: white;
+margin-bottom:30px;
+}
+.slide a {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    line-height: 62px;
+    color: white;
+    border: 3px solid white;
+    padding: 11px 19px;
+}
+.kinderjury {
+    background: #fa5801;
+}
+.kinderjury .row {
+    max-width: 100%;
+}
+.kinderjury .lastrow {
+float: right;
+    margin: 0px;
+    padding: 0px;
+}
+.kinderjury img {
+width: 100%;
+}
+footer .row {
+    max-width: 65rem;
+}
+.socialmedia a {
+    font-size: 21px;
+    margin-right: 10px;
+    color: white;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+.medium-6.columns.firstrow {
+    width: 450px;
+    color: white;
+    position: relative;
+    top: 85px;
+    left: 186px;
+}
+.firstrow h3 {
+    font-size: 37px;
+    font-weight: 500;
+}
+.firstrow p {
+    font-size: 20px;
+    width: 400px;
+}
+.firstrow a {
+    background: white;
+    padding: 12px 12px;
+    margin-top: 20px;
+    display: block;
+    font-size: 19px;
+    width: 265px;
+    text-align: center;
+    font-weight: bold;
+    color: #fa5801;
+}
+.latestnewsfacebook {
+    padding: 85px 0px;
+}
+.latestnewsfacebook h2 {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+.latestnewsfacebook img {
+    width: 100%;
+}
+.latestnewsfacebook .medium-4.columns {
+    padding-left: 0px;
+}
+.latestnewsfacebook .medium-4.columns {
+    padding-left: 0px;
+    padding-right: 30px;
+}
+.latestnewsfacebook h3 {
+    font-size: 24px;
+    margin: 20px 0px;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+.finalcall {
+    padding: 100px 0px;
+    text-align: center;
+}
+.finalcall p {
+    font-size: 30px;
+    font-weight: bold;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    line-height: 35px;
+}
+footer {
+    background: #333333;
+    color: white;
+    padding: 0px 0px;
+}
+.footerlogo {
+    text-align: center;
+    position: relative;
+    top: -61px;
+}
+.btnfix {
+margin-top: 38px;
+}
